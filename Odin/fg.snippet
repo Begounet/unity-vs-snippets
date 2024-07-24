@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>fg</Title>
+			<Shortcut>fg</Shortcut>
+			<Description>Code snippet to create FoldoutGroup attribute with Odin</Description>
+			<Author>Arnaud Begue</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>groupName</ID>
+					<ToolTip>Name of the foldout group</ToolTip>
+					<Default></Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[[FoldoutGroup("$groupName$")]
+	$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
